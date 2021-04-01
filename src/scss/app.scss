@@ -1,5 +1,14 @@
 $rojo : 'bue';
 
+$fuentePrincipal: "Arial";
+
 body{
     background-color: $rojo;
+    font-family: $fuentePrincipal;
+}
+h1{
+    font-family: $fuentePrincipal;
+}
+p{
+    font-family: $fuentePrincipal;
 }
