@@ -421,6 +421,11 @@ h3 {
     margin-bottom: 0;
   }
 }
+.header.fijo {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0.3rem 0.4rem #4444;
+}
 
 .navegacion-principal {
   display: flex;
@@ -630,4 +635,68 @@ h3 {
 }
 .btn-cerrar:hover {
   cursor: pointer;
+}
+
+.boletos {
+  padding: 5rem 0;
+}
+.boletos h3 {
+  text-align: center;
+  color: #fff;
+}
+.boletos .contenedor-boletos {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+.boletos .plan p {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pase {
+  width: 100%;
+  border-spacing: 0;
+}
+.pase thead {
+  background-color: #f53756;
+}
+.pase thead th {
+  padding: 1.25rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-weight: 2rem;
+}
+.pase tbody {
+  background-color: #fff;
+}
+.pase tbody td {
+  padding: 1.25rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.pase tbody tr:last-of-type td {
+  border: none;
+}
+.pase tfoot {
+  background-color: #752f97;
+}
+.pase tfoot td {
+  padding: 1.25rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer {
+  background-color: #f53756;
+  padding: 1.25rem;
+  text-align: center;
+}
+.footer p {
+  color: #fff;
+  margin: 0%;
 }
